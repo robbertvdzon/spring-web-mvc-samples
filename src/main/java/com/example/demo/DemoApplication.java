@@ -353,6 +353,8 @@ class Pet{
     @NotNull(message = "Gender cannot be empty")
     public GENDER gender;
 
+    public Pet() {}
+
     public Pet(String name, GENDER gender) {
         this.name = name;
         this.gender = gender;
